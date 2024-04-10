@@ -2,7 +2,7 @@
 
 Welcome to the eSimeRkkI website, a sleek and modern web presence designed with Tailwind CSS. This site showcases the power of Tailwind CSS in creating beautiful, responsive designs with minimal effort.
 
-![eSimeRkkI Screenshot](.public/assets/images/screenshot.png)
+![eSimeRkkI Screenshot](public/assets/images/screenshot.png)
 
 ## Features
 
