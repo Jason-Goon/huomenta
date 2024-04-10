@@ -1,6 +1,6 @@
 // src/scripts/main.js
 
-// Smooth scroll for navigation links
+// nav smooth scroll 
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function (e) {
         e.preventDefault();
@@ -24,4 +24,4 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 
 
 
-// Form validation
+
