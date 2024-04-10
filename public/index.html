@@ -6,46 +6,46 @@
     <title>eSimeRkkI</title>
     <link href="./assets/styles/tailwind.css" rel="stylesheet">
     <link rel="icon" type="image/png" href="./assets/images/image2.png">
-    <style>
-        
-    .feature-link {
-        position: relative;
-        display: inline-flex;
-        align-items: center;
-        justify-content: center;
-        padding: 16px 32px;
-        background-color: transparent;
-        color: white;
-        font-size: 16px;
-        font-weight: bold;
-        text-decoration: none;
-        overflow: visible; /* Ensure shadows aren't clipped */
+    
+<style>
+.feature-link {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px 32px;
+    background-color: transparent;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    overflow: visible; 
     }
 
-    /* Box with increased opacity and visible outline */
-    .feature-link::before, .feature-link::after {
-        content: '';
-        position: absolute;
-        background: rgba(0, 0, 0, 0.7); /* Increased opacity for visibility */
-        width: calc(100% + 4px); /* Extend size for shadow visibility */
-        height: calc(100% + 4px);
-        margin-left: -2px; /* Adjust position to center */
-        margin-top: -2px;
-        box-shadow: 0 0 0 2px black; /* Simulate border around the box */
-    }
+    
+.feature-link::before, .feature-link::after {
+     content: '';
+     position: absolute;
+     background: rgba(0, 0, 0, 0.7); 
+     width: calc(100% + 4px); 
+     height: calc(100% + 4px);
+     margin-left: -2px;
+     margin-top: -2px;
+     box-shadow: 0 0 0 2px black;
+}
 
-    .feature-link::before {
-        transform: translate(5px, 5px);
-    }
+.feature-link::before {
+    transform: translate(5px, 5px);
+}
 
-    .feature-link::after {
-        transform: translate(-5px, -5px);
-    }
+.feature-link::after {
+    transform: translate(-5px, -5px);
+}
 
-    .feature-link span {
-        position: relative;
-        z-index: 1;
-    }
+.feature-link span {
+    position: relative;
+    z-index: 1;
+ }
 
        .header-container {
   position: relative;
@@ -53,28 +53,24 @@
 
 #menu-toggle {
   position: absolute;
-  right: 20px; /* Adjust as necessary */
-  top: 20px; /* Adjust as necessary */
+  right: 20px; 
+  top: 20px; 
 }
 
 
 
-        /* Ensure background image covers but is always fully visible */
+        
 .hero-container {
-    background-size: contain; /* Change from cover to contain for full visibility */
+    background-size: contain; 
     background-repeat: no-repeat;
     background-position: center center;
-    min-height: 100vh; /* Ensure it covers the full viewport height */
+    min-height: 100vh; 
 }
 
-/* Ensure background image covers but is always fully visible */
 body {
-    background-color: #ffffff; /* Ensures the whole page has a white background */
+    background-color: #ffffff; 
 }
-
-
-
-    </style>
+</style>
     
     
     
@@ -104,26 +100,23 @@ body {
                             <li>
                                 <a href="#about-us" class="py-3 px-5 text-black hover:text-gray-800 text-lg font-semibold">Tietoa meistä</a>
                             </li>
-                        </ul>
-                        
-                        
+                        </ul>  
                     </div>
                 </div>
             </nav>
         </header>
         
-        <div class="pt-[56px] h-screen bg-no-repeat bg-cover flex items-center justify-center" style="background-image: url('./assets/images/image.png');">
+       <div class="pt-[56px] h-screen bg-no-repeat bg-cover flex items-center justify-center" style="background-image: url('./assets/images/image.png');">
             <a href="#first-feature" class="feature-link">
                 <span>Tutustu Ominaisuuksiin</span>
             </a>
-        </div>
+       </div>
         
 
     
         <main>
-            <!-- Combined Features and About Us Section -->
             <section id="features-about" class="container mx-auto px-6 py-10 bg-white">
-                <!-- Feature 1 with ID for Direct Navigation -->
+          
                 <div id="first-feature" class="flex flex-wrap mb-10 bg-white rounded-lg shadow-2xl">
                     <div class="md:w-1/2 p-4 flex justify-center">
                         <img class="rounded-lg" src="./assets/images/image2.png" alt="Feature Image">
@@ -133,8 +126,7 @@ body {
                         <p class="text-gray-600">Osta nettisivut Osta nettisivut Osta nettisivut Osta nettisivut Osta nettisivut Osta nettisivut Osta nettisivut Osta nettisivut Osta nettisivut Osta nettisivut Osta nettisivut Osta nettisivut Osta nettisivut Osta nettisivut Osta nettisivut Osta nettisivut Osta nettisivut Osta nettisivut </p>
                     </div>
                 </div>
-                
-                <!-- Feature 2 -->
+               
                 <div class="flex flex-wrap mb-10 bg-white rounded-lg shadow-2xl">
                     <div class="md:w-1/2 p-4 flex justify-center">
                         <img class="rounded-lg" src="./assets/images/image5.png" alt="Feature 2 Image">
@@ -145,14 +137,14 @@ body {
                     </div>
                 </div>
         
-                <!-- About Us as a Feature with ID for Direct Navigation -->
+              
                 <div id="about-us" class="flex flex-wrap mb-10 bg-white rounded-lg shadow-2xl">
                     <div class="md:w-1/2 p-4 flex justify-center">
                         <img src="./assets/images/image3.png" alt="About Us" class="max-w-full h-auto rounded-lg">
                     </div>
                     <div class="md:w-1/2 p-4 flex flex-col justify-center items-center text-center">
                         <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">Tietoa meistä</h3>
-                        <p class="text-gray-600">käytin tailwind css ja generoin placeholder kuvat tekoälyllä</p>
+                        <p class="text-gray-600"></p>
                     </div>
                 </div>
             </section>
@@ -164,8 +156,8 @@ body {
 
     <footer class="bg-white">
         <div class="container mx-auto px-6 pt-10 pb-6">
-            <div class="flex justify-center"> <!-- Center the form container -->
-                <div class="w-full max-w-md"> <!-- Restrict form width and centralize -->
+            <div class="flex justify-center"> 
+                <div class="w-full max-w-md"> 
                     <div class="mb-6">
                         <h2 class="text-center text-gray-700 text-sm font-bold mb-2">Contact Us</h2>
                         <form action="#" method="POST" class="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4">
