@@ -1,4 +1,4 @@
-# eSimeRkkI Website
+# Huomenta Website
 
 Welcome to the eSimeRkkI website, a sleek and modern web presence designed with Tailwind CSS. This site showcases the power of Tailwind CSS in creating beautiful, responsive designs with minimal effort.
 
@@ -21,7 +21,7 @@ To view the eSimeRkkI website, you can visit the Cloudflare Pages deployment at 
 
   
 
-- # eSimeRkkI-verkkosivut
+- # Huomenta-verkkosivut
 - 
   Tervetuloa eSimeRkkI-verkkosivustolle, joka on suunniteltu tyylikkäästi ja modernisti Tailwind CSS:n avulla. 
 
